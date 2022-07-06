@@ -39,6 +39,8 @@ Share the Table is the new dating app designed for foodies! Users will create a 
 * User can tap on restaurants/cafes on other user's profile and view information from Google Maps API
 * User can send and share photos or attachements to another user
 * User can edit their profile
+* User can enter dates/times that work for them and algorithm will schedule time for both users
+* Notification of receiving a match feature
 
 ### 2. Screen Archetypes
 
