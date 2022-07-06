@@ -28,16 +28,17 @@ Share the Table is the new dating app designed for foodies! Users will create a 
 **Required Must-have Stories**
 
 * User can create an account
-* User can login
-* User can create a profile and view their own profile
+* User can login to their account
+* User can create a profile based on a questionairre and view their own profile
 * User can swipe to match/not match with another user's profile
 * User can tap on another user's profile and view a detailed profile view
-* User can message another user, if matched with them
+* User can send text-based messages to another user, if matched with them
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can tap on restaurants/cafes on other user's profile and view information from Google Maps API
+* User can send and share photos or attachements to another user
+* User can edit their profile
 
 ### 2. Screen Archetypes
 
@@ -46,6 +47,8 @@ Share the Table is the new dating app designed for foodies! Users will create a 
 * Registration Screen
    * User can create an account
    * User can create a profile
+* Questionaire Screen
+   * User can enter and select responses to form their profile and user preferences
 * Self Profile Screen
     * User can view their own profile
 * Feed Screen
@@ -68,6 +71,8 @@ Share the Table is the new dating app designed for foodies! Users will create a 
 * Login Screen
    => Feed Screen
 * Registration Screen
+   => Questionairre Screen
+* Questionairre Screen
    => Feed Screen
 * Feed Screen
    => Conversation Screen
@@ -77,7 +82,7 @@ Share the Table is the new dating app designed for foodies! Users will create a 
    => Feed Screen
 
 ## Wireframes
-Within Repo
+Photos are store within repo, will embed more fleshed out frames later
 
 ## Schema 
 ### Models
@@ -90,6 +95,12 @@ Within Repo
 |          |                          |                                                              |
 
 ### Networking
-- [Add list of network requests by screen ]
+- Home Feed Screen
+  * (Read/GET) Query all other users
+- Conversation Screen  
+  * (READ/GET) Query logged in user object conversations with other users
+- Self Profile Screen
+  * (Read/GET) Query logged in user object
+  * (Update/PUT) Update user images/responses
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
