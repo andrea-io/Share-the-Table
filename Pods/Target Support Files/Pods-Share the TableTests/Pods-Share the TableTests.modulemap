@@ -1,0 +1,6 @@
+framework module Pods_Share_the_TableTests {
+  umbrella header "Pods-Share the TableTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

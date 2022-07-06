@@ -1,0 +1,6 @@
+framework module Pods_Share_the_Table {
+  umbrella header "Pods-Share the Table-umbrella.h"
+
+  export *
+  module * { export * }
+}
